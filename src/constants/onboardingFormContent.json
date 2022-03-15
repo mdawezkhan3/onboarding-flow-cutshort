@@ -1,0 +1,71 @@
+[
+  {
+    "heading": "Welcome! First things first...",
+    "subHeading": "You can always change them later.",
+    "type": "textInput",
+    "buttonLabel": "Create Workspace",
+    "inputs": [
+      {
+      "id": "fullName",
+      "label": "Full Name",
+      "placeholder": "Steve Jobs",
+      "required": true,
+      "example": ""
+      },
+      {
+        "id": "displayName",
+        "label": "Display Name",
+        "placeholder": "Steve",
+        "required": true,
+        "example": ""
+      }
+    ]
+  },
+  {
+    "heading": "Let's set up a home for all your work",
+    "subHeading": "You can always create another workspace later.",
+    "type": "textInput",
+    "buttonLabel": "Create Workspace",
+    "inputs": [
+      {
+        "id": "workspaceName",
+        "label": "Workspace Name",
+        "placeholder": "Eden",
+        "required": true,
+        "example": ""
+      },
+      {
+        "id": "workspaceUrl",
+        "label": "Workspace URL (optional)",
+        "placeholder": "Example",
+        "required": false,
+        "example": "www.eden.com/"
+      }
+    ]
+  },
+  {
+    "heading": "How are you planning to use work",
+    "subHeading": "We'll streamline your setup experience accordingly.",
+    "type": "radioInput",
+    "buttonLabel": "Create Workspace",
+    "inputs": [
+      {
+        "id": "forMyself",
+        "icon": "person",
+        "label": "For myself",
+        "subLabel": "Write better. Think more clearly. Stay organized."
+      },
+      {
+        "id": "withMyTeam",
+        "icon": "groups",
+        "label": "With My Team",
+        "subLabel": "Wikis, docs, tasks & projects, all in one place."
+      }
+    ]
+  },
+  {
+    "heading": "Congratulations, Eren",
+    "subHeading": "You have completed onboarding, you can start using the Eren!",
+    "buttonLabel": "Launch Eden"
+  }
+]
